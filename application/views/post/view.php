@@ -10,17 +10,11 @@
 			      date_default_timezone_set('America/Los_Angeles');
             echo date('m/d/Y H:i:s', $phpdate); ?>
       </div>
-    </div>
-    <br clear="all" />
+      <br clear="all" />
+    </div><!-- Close meta -->
+      
     <p><?php echo $post->body;?></p>
-    <div style="float:right; font-size:12px; margin:0 5px;"><a>
-		<?php if( $total_comments > 1)
-				{echo $total_comments . ' comments';}
-				else if($total_comments === 1)
-				{echo $total_comments . ' comment';}
-				else{ echo 'No comments yet!';}?></a>
-		</div> 
-		<div style="clear:both"></div>             
+               
    </div><!-- Close post -->
 <?php endforeach; ?>
             

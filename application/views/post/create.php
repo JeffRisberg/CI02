@@ -8,7 +8,7 @@
 
 <?php echo form_open('post/save');?>
 <p>
-	<strong>Title</strong>:<br /> <input type="text" name="title" size="60" />
+	<strong>Title</strong>:<br /> <input type="text" name="title" size="60" style="width: 600px" />
 </p>
 <br clear="all" />
 
